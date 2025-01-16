@@ -1,16 +1,16 @@
 <p align="center">
-  <img src="https://storage.googleapis.com/meongku/logo-app/meongku-logo.png" alt="Meongku Logo" width="250" height="250" />
+  <img src="assets/image/meongku.png" alt="Meongku" height="180" />
 </p>
 
 <h1 align="center">Meongku Web Service API</h1>
 
 <div align="center">
 
-[![CC Member](https://img.shields.io/github/contributors/arisafriyanto/meongku-api?color=blue)](#cc-member)
+[![CC Member](https://img.shields.io/github/contributors/handokota/meongku-api?color=blue)](#cc-member)
 [![Dependency](https://img.shields.io/node/v/@hapi/hapi)](#dependency)
-[![Issue](https://img.shields.io/github/issues/arisafriyanto/meongku-api)](https://github.com/arisafriyanto/meongku-api/issues)
-[![Pull Request](https://img.shields.io/github/issues-pr/arisafriyanto/meongku-api)](https://github.com/arisafriyanto/meongku-api/pulls)
-[![License](https://img.shields.io/github/license/arisafriyanto/meongku-api?color=blue)](https://github.com/arisafriyanto/meongku-api/blob/main/LICENSE)
+[![Issue](https://img.shields.io/github/issues/handokota/meongku-api)](https://github.com/handokota/meongku-api/issues)
+[![Pull Request](https://img.shields.io/github/issues-pr/handokota/meongku-api)](https://github.com/handokota/meongku-api/pulls)
+[![License](https://img.shields.io/github/license/handokota/meongku-api?color=blue)](https://github.com/handokota/meongku-api/blob/main/LICENSE)
 
 </div>
 
@@ -23,7 +23,7 @@ The first thing you need to know is that the service requires authentication to 
 ## How to setup and run locally
 
 1. Clone repository with the following command
-   <pre>git clone https://github.com/arisafriyanto/meongku-api.git</pre>
+   <pre>git clone https://github.com/handokota/meongku-api.git</pre>
 2. Move to the repository directory with the command
    <pre>cd meongku-api/</pre>
 3. Run the following command to install the depedency
@@ -57,7 +57,7 @@ The first thing you need to know is that the service requires authentication to 
 1. Open cloud shell and set the project id
    <pre>gcloud config set project PROJECT_ID</pre>
 2. Clone repository following this command
-   <pre>git clone -b main https://github.com/arisafriyanto/meongku-api.git</pre>
+   <pre>git clone -b main https://github.com/handokota/meongku-api.git</pre>
 3. Open the app folder
    <pre>cd meongku-api/</pre>
 4. Save `serviceAccountKey.json` in the root directory obtained from your Firebase project
@@ -175,4 +175,4 @@ You can download the Postman documentation <a href="https://documenter.getpostma
 We are using github action to setup, build and deploy the Cloud Run service in our project on Google Cloud Platform. New revision will created after push the changes on main branch of the development repository.
 
 ## Resository FastApi ML Model:
-https://github.com/arisafriyanto/cat-breed-fastapi.git
+https://github.com/handokota/cat-breed-fastapi.git
